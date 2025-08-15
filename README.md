@@ -28,18 +28,7 @@
    - Inlier–Outlier split (1–99% quantiles)  
    - Separate RF for outliers; probability-weighted blending
 
-## 📦 Setup
-```bash
-conda create -n reorder python=3.10 -y
-conda activate reorder
-pip install pandas numpy scikit-learn lightgbm catboost optuna
-```
 
-## 🚀 Run
-```bash
-python main.py
-# Produces advanced_submission.csv
-```
 
 ## 📊 Results
 - **Leaderboard:** Rank 10  
