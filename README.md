@@ -1,4 +1,4 @@
-# Predicting Reorder Point – MachineHack (Rank 10/500+)
+# Predicting Reorder Point – MachineHack (Rank 10)
 
 ![Rank 10 – MachineHack](reoder_rank10.jpg)
 
@@ -11,17 +11,7 @@
 - **Optuna** Bayesian tuning (25 trials) on RandomForest; **10-fold OOF stacking**
 - Fully reproducible pipeline; produces `advanced_submission.csv`
 
-## 📁 Repository Structure
-```
-.
-├── Train.csv                         # Provided by challenge
-├── Test.csv                          # Provided by challenge
-├── Submission.csv                    # Sample submission
-├── reoder_rank10.jpg                 # Rank-10 proof (shown above)
-├── reorderpoint_trail.ipynb          # Experimentation notebook
-├── reorder_submission_supraja.csv    # Saved submission
-└── main.py                           # Final script
-```
+
 
 ## 🧠 Methodology
 1. **Feature Engineering:**  
@@ -52,6 +42,6 @@ python main.py
 ```
 
 ## 📊 Results
-- **Leaderboard:** Rank 10/500+ (Top 2%)  
+- **Leaderboard:** Rank 10  
 - **Validation:** 10-fold OOF RMSE reduced by ~18% from baseline  
 - **Output:** `advanced_submission.csv`
