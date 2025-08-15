@@ -2,7 +2,7 @@
 
 ![Rank 10 – MachineHack](reoder_rank10.jpg)
 
-> End-to-end, competition-grade pipeline for predicting **Reorder_Point(liters/kg)** from production, inventory, and cost data. Secured **Top 2%** (Rank **10**) on MachineHack.
+> End-to-end, competition-grade pipeline for predicting **Reorder_Point(liters/kg)** from production, inventory, and cost data. Secured  (Rank **10**) on MachineHack.
 
 ## 🔥 Highlights
 - **Rank 10/500+** with a robust stacked ensemble and strong feature engineering
